@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+.HeaderGrande {
+	background-color: Green;
+	border-bottom: solid yellow;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.HeaderGrande h1 {
+	font-family: Helvetica;
+	color: white;
+}
+
+.HeaderGrande h4 {
+	font-size: 20px;
+	color: yellow;
+	padding-left: 15px;
+}
+
+.HeaderPequeno{
+	background-color: Green;
+	border-bottom: solid yellow;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.HeaderPequeno h1 {
+	font-family: Helvetica;
+	color: white;
+}
+
+#top button,#top input[type=button],#top input[type=submit],#top input[type=reset] {
+    border: groove #8bf47f 4px;
+    color: green;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0px;
+    background-color: #f1f1f1;
+}
+
+#top button:hover,#top input[type=button]:hover,#top input[type=submit]:hover,#top input[type=reset]:hover {
+	 background-color: #3e4e68;
+	 color:white;
+}
+.HeaderPequeno table {
+	width:90%;
+	margin-left:auto; 
+    margin-right:auto;
+}

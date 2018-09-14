@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+button, input[type=button], input[type=submit], input[type=reset] {
+	background-color: #49de2b;
+    border: hidden;
+    border-radius: 4px;
+    color: white;
+ 
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size:16;
+}
+
+text, input[type=text]{ 
+	font-size:16;
+}
+
+text, input[type=password]{ 
+	font-size:16;
+}
+
+ button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	 background-color: #094c01;
+	 color:white;
+}
+
+
+.MenuLogin p{
+	font-weight:bold;
+	font-size:18;
+}
+
+div.MenuLogin	{
+	margin-top:100px;
+	text-align:center;
+ }
+ 
+#Cadastrar{
+	background-color:#ddd;
+}
+
+.MenuCadastro {
+	font-weight: bold;
+	color: #3d3d3d;
+	margin-left:20px;
+	margin-top:20px;
+	 position: relative;
+  font-family: Arial;
+}
+
+.MenuCadastro select{
+	/*-webkit-appearance:none; /*hide original SELECT element:
+	-moz-appearance: none;
+	appearance:none;*/	
+}
+
+option{
+	/*background-color: #ffffff;*/
+}
+
+
+.MenuCadastro input[type=submit]{
+	border:  2.5px solid #2a2a2a;
+	background-color: #696969;
+}
+
+.MenuCadastro input[type=submit]:hover{
+	background-color: #969696;
+}
+
+.MenuCadastro input[type=text], .MenuCadastro input[type=password], .MenuCadastro select{
+	background-color:#f2f2f2;
+	width:100%;
+}
+
+.MenuCadastro td{
+    width:200px;
+}

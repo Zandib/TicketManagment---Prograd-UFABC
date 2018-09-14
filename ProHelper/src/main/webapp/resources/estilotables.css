@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+#dados{
+	background-color: white;
+}
+
+#dados table{
+	border-collapse: collapse;
+}
+
+#dados td{
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	font-size:14px;
+	padding: 2px 10px 2px 10px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+
+#dados th {
+	padding: 2px 10px 2px 10px;
+    background-color: #30631f;
+    color: white;
+    font-size:20px;
+}
+
+#dados tr:nth-child(even) {
+	background-color: #b0f998;
+}
+
